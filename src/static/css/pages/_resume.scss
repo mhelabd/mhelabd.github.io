@@ -38,6 +38,9 @@
 	}
 
 	.jobs-container {
+		h4 {
+			font-weight: normal;
+		}
 		.points {
 			li {
 				margin: 0;
@@ -98,6 +101,7 @@
 		text-transform: none;
 		padding-top: 0.3em;
 		margin-bottom: 1em;
+		font-size: 20;
 	}
 }
 

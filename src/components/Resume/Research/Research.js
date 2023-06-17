@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Job = ({ data }) => (
+const Research = ({ data }) => (
   <article className="jobs-container">
     <header>
       <div style={{
@@ -25,7 +25,7 @@ const Job = ({ data }) => (
   </article>
 );
 
-Job.propTypes = {
+Research.propTypes = {
   data: PropTypes.shape({
     link: PropTypes.string.isRequired,
     company: PropTypes.string.isRequired,
@@ -36,4 +36,4 @@ Job.propTypes = {
   }).isRequired,
 };
 
-export default Job;
+export default Research;

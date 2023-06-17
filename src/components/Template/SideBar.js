@@ -12,21 +12,25 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
-        <p><a href="mailto:michael.l.dangelo@gmail.com">michael.l.dangelo@gmail.com</a></p>
+        <h2>Michael Elabd</h2>
+        <p><a href="mailto:mhelabd@cs.stanford.edu">mhelabd@cs.stanford.edu</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I like building things.
-        I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni, and
-        the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
-        at <a href="https://matroid.com">Matroid</a>
-        , <a href="https://planet.com">Planet</a>
-        , <a href="https://planetaryresources.com">Planetary Resources</a>
-        , <a href="https://facebook.com">Facebook</a>
-        , and <a href="https://seds.org">SEDS</a>.
+      <p>
+        {/* TODO: ADD LINKS */}
+        Hello, I am an Egyptian 🇪🇬 student at Stanford University
+        studying Computer Science. My research experience is in
+        artificial intelligence, and my academic interests
+        are focused on deep learning, generative models, mathematics,
+        philosophy, and international development.
+        I enjoy reading about ethics of technology,
+        poverty alleviation and community development,
+        as well as philosophy. I am passionate about helping
+        those in need because I believe that we
+        all have a moral imperative towards one another.
       </p>
       <ul className="actions">
         <li>

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
-import Job from './Experience/Job';
+import Research from './Research/Research';
 
 const Experience = ({ data }) => {
   const [isCollapsed, setCollapsedI] = useState(true);
@@ -13,10 +13,10 @@ const Experience = ({ data }) => {
       <div className="title">
         <h3>Experience</h3>
       </div>
-      {data.filter((_, i) => (isCollapsed && i < 4) || !isCollapsed).map((job) => (
-        <Job
-          data={job}
-          key={job.company + job.daterange}
+      {data.filter((_, i) => (isCollapsed && i < 4) || !isCollapsed).map((research) => (
+        <Research
+          data={research}
+          key={research.company + research.daterange}
         />
       ))}
       <div className="title">
