@@ -14,7 +14,7 @@
 		@include vendor('display', 'flex');
 		@include vendor('justify-content', 'center');
 		background-color: _palette(bg);
-		border-bottom: solid 1px _palette(border);
+		// border-bottom: solid 1px _palette(border);
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -29,6 +29,8 @@
 		}
 
 		ul {
+			height: inherit;
+			line-height: inherit;
 			list-style: none;
 			margin: 0;
 			padding-left: 0;
@@ -46,7 +48,7 @@
 			white-space: nowrap;
 
 			a {
-				font-size: 0.7em;
+				font-size: 0.8em;
 			}
 		}
 
@@ -54,9 +56,8 @@
 			@include vendor('flex', '1');
 			height: inherit;
 			line-height: inherit;
-			margin-left: 1.5em;  
 			overflow: hidden;
-			padding-left: 1.5em;
+			padding-left: 3em;
 			ul {
 				display: flex;
 				justify-content: center;
@@ -81,7 +82,7 @@
 					a {
 						border-bottom: 0;
 						font-family: _font(family-heading);
-						font-size: 0.8em;
+						font-size: 0.75em;
 						font-weight: _font(weight-heading);
 						letter-spacing: _font(kerning-heading);
 						text-transform: uppercase;
