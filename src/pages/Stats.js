@@ -6,10 +6,11 @@ import Main from '../layouts/Main';
 import Personal from '../components/Stats/Personal';
 import Site from '../components/Stats/Site';
 
+// interesting facts, short form, countries, travel related
 const Stats = () => (
   <Main
     title="Stats"
-    description="Some statistics about Michael D'Angelo and mldangelo.com"
+    description="Some statistics about Michael Elabd and mldangelo.com"
   >
     <article className="post" id="stats">
       <header>

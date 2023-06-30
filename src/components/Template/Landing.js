@@ -5,8 +5,8 @@ import ContactIcons from '../Contact/ContactIcons';
 
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
-const SideBar = () => (
-  <section id="sidebar">
+const Landing = () => (
+  <section id="landing">
     <section id="intro">
       <Link to="/" className="logo">
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
@@ -41,9 +41,8 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
     </section>
   </section>
 );
 
-export default SideBar;
+export default Landing;
