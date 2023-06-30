@@ -25,13 +25,13 @@ const Navigation = () => {
     };
   }, []);
   return (
-    <header id="header">
-      <h1 className="index-link" style={{ backgroundColor, color }}>
+    <header id="header" style={{ backgroundColor }}>
+      <h1 className="index-link" style={{ color }}>
         {routes.filter((l) => l.index).map((l) => (
           <Link key={l.label} to={l.path}>{l.label}</Link>
         ))}
       </h1>
-      <nav className="links" style={{ backgroundColor, color }}>
+      <nav className="links" style={{ color }}>
         <ul>
           {routes.filter((l) => !l.index).map((l) => (
             <li key={l.label}>
