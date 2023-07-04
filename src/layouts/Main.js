@@ -6,6 +6,7 @@ import Analytics from '../components/Template/Analytics';
 import Navigation from '../components/Template/Navigation';
 import ScrollToTop from '../components/Template/ScrollToTop';
 import Splash from '../components/Template/Splash';
+import Footer from '../components/Template/Footer';
 
 const Main = (props) => {
   const [isLoading, setLoading] = useState(localStorage.getItem('previouslyVisited') === null);
@@ -51,6 +52,7 @@ const Main = (props) => {
           {props.children}
         </div>
       </div>
+      <Footer />
     </HelmetProvider>
   );
 };

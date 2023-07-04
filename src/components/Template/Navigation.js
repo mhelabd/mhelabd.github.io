@@ -12,10 +12,11 @@ const Navigation = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPercentage = Math.min(1, (window.scrollY) / (48));
-      setBackgroundColor(`rgba(60, 60, 60, ${scrollPercentage})`);
       if (scrollPercentage > 0.5) {
+        setBackgroundColor(`rgba(60, 60, 60, ${scrollPercentage})`);
         setTextColor(`rgba(255, 255, 255, ${scrollPercentage})`);
       } else {
+        setBackgroundColor(`rgba(255, 255, 255, ${1 - scrollPercentage})`);
         setTextColor(`rgba(0, 0, 0, ${1 - scrollPercentage})`);
       }
     };

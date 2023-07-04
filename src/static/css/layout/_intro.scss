@@ -7,6 +7,7 @@
 /* Intro */
 
 	#intro {
+		text-align: center;
 		.logo {
 			border-bottom: 0;
 			display: inline-block;
@@ -15,8 +16,8 @@
 			position: relative;
 
 			img {
-				width: 10em;
-				border-radius: 50%;
+				width: 18em;
+				border-radius: 10% 30% 50% 70%;
 				display: block;
 			}
 		}
@@ -34,7 +35,6 @@
 
 		@include breakpoint(large) {
 			margin: 0 0 _size(section-spacing) 0;
-			text-align: center;
 
 			header {
 				h2 {

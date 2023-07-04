@@ -14,34 +14,46 @@ const Landing = () => (
       <header>
         <h2>Michael Elabd</h2>
         <p><a href="mailto:mhelabd@cs.stanford.edu">mhelabd@cs.stanford.edu</a></p>
+        <ContactIcons />
       </header>
     </section>
 
     <section className="blurb">
-      <h2>About</h2>
+      <h2>Intro</h2>
+      {/* TODO: ADD LINKS */}
       <p>
-        {/* TODO: ADD LINKS */}
-        Hello, I am an Egyptian 🇪🇬 student at Stanford University
-        studying Computer Science. My research experience is in
-        artificial intelligence, and my academic interests
-        are focused on deep learning, generative models, mathematics,
-        philosophy, and international development.
-        I enjoy reading about ethics of technology,
-        poverty alleviation and community development,
-        as well as philosophy. I am passionate about helping
-        those in need because I believe that we
-        all have a moral imperative towards one another.
+        <ul>
+          <li>
+            Hello, I am a <b>Machine Learning Research Engineer at Google</b>,
+            focusing on building foundational models for sensor data.
+          </li>
+          <li>
+            I studied <b>Computer Science (AI Track) and Mathematics at Stanford University</b>.
+          </li>
+          <li>
+            My professional interests include deep learning,
+            generative models, natural language, and computer vision.
+          </li>
+          <li>
+            My academic passions include ethics of technology,
+            poverty alleviation and international development.
+          </li>
+          <li>
+            My intellectual pursuits include philosophy, economics, and political science.
+          </li>
+          <li>
+            I am passionate about helping those in need because
+            I believe that we all have a moral imperative towards one another.
+          </li>
+        </ul>
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {!window.location.pathname.includes('/about') ? <Link to="/about" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
         </li>
       </ul>
     </section>
 
-    <section id="footer">
-      <ContactIcons />
-    </section>
   </section>
 );
 

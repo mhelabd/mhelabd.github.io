@@ -6,7 +6,11 @@
 
 /* Footer */
 
-	#footer {
+	.footer {
+		padding-top: 2em;
+		background-color: rgb(60, 60, 60);
+		overflow: auto; 
+		text-align: center;
 		.icons {
 			color: _palette(fg-light);
 		}
