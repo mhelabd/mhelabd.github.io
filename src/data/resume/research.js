@@ -13,6 +13,19 @@ const research = [
     technologiesUsed: ['AI'],
     timeFrame: ['Part-time'],
   },
+  {
+    institution: 'Stanford Intelligent Systems Lab',
+    position: 'Researcher',
+    icon: '/images/degrees/stanford.png',
+    link: 'https://sisl.stanford.edu/',
+    daterange: 'January 2023 - Present',
+    points: [
+      'Developing a deep reinforcement learning (RL) simulation with multiple ethical framework (Virtue Ethics, Utilitarianism, and novel dynamic morality) to codify moral theories into agent\'s reward functions',
+    ],
+    companyType: ['Academia'],
+    technologiesUsed: ['AI'],
+    timeFrame: ['Part-time'],
+  },
 ];
 
 export default research;

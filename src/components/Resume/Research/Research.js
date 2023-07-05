@@ -11,7 +11,7 @@ const Research = ({ data }) => (
       }}
       >
         <div style={{ paddingRight: 20, paddingBottom: 5 }}>
-          <img src={data.icon} width={40} height={40} style={{ borderRadius: '5px' }} alt="" />
+          <img src={data.icon} width={30} alt="" />
         </div>
         <h4><a href={data.link}>{data.institution}</a> - {data.position}</h4>
       </div>

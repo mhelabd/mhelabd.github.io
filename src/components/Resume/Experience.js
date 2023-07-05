@@ -81,7 +81,7 @@ const JobExperience = ({ jobs, researches }) => {
   const checkPositionFilter = (position) => (
     (position.companyType.includes(companyTypecategory) || companyTypecategory === ALL_CATEGORIES)
     && (position.technologiesUsed.includes(technologiesUsedCategory)
-    || technologiesUsedCategory === ALL_CATEGORIES)
+      || technologiesUsedCategory === ALL_CATEGORIES)
     && (position.timeFrame.includes(timeFramesCategory) || timeFramesCategory === ALL_CATEGORIES)
   );
 
@@ -112,34 +112,42 @@ const JobExperience = ({ jobs, researches }) => {
   };
 
   return (
-    <>
-      <div className="experience">
-        <div className="link-to" id="experience" />
-        <div className="title">
-          <h2>Experience</h2>
-          <p>You can filter the experiences to show only the most relevant ones
-            to a particular topic.
-          </p>
-        </div>
-        {/* <div className="skill-button-container">
-          {getButtons('technologiesUsed')}
-        </div> */}
-        <div className="skill-button-container">
-          {getButtons('companyTypes')}
-        </div>
-        {/* <div className="skill-button-container">
-          {getButtons('timeFrames')}
-        </div> */}
-        <div className="title">
-          <h3>Job Experience</h3>
-        </div>
-        {getWorkExperience()}
-        <div className="title">
-          <h3>Research Experience</h3>
-        </div>
-        {getResearchExperience()}
+    <div className="experience">
+      <div className="link-to" id="experience" />
+      <div className="title">
+        <h2>Experience</h2>
+        <p>You can filter the experiences to show only the most relevant ones
+          to a particular topic.
+        </p>
       </div>
-    </>
+      {/* <div className="skill-button-container">
+        {getButtons('technologiesUsed')}
+      </div> */}
+      <div className="skill-button-container">
+        {getButtons('companyTypes')}
+      </div>
+      {/* <div className="skill-button-container">
+        {getButtons('timeFrames')}
+      </div> */}
+      {
+      ['All', 'Big Tech', 'Startup'].includes(companyTypecategory)
+        && <>
+          <div className="title">
+            <h3>Job Experience</h3>
+          </div>
+          {getWorkExperience()}
+        </>
+      }
+      {
+        ['Academia', 'All'].includes(companyTypecategory)
+        && <>
+          <div className="title">
+            <h3>Research Experience</h3>
+          </div>
+          {getResearchExperience()}
+        </>
+      }
+    </div>
   );
 };
 
