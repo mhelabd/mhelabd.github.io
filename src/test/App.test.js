@@ -23,8 +23,8 @@ const pages = [
     component: Index,
   },
   {
-    route: '/about',
-    heading: 'About Me',
+    route: '/personal',
+    heading: 'Personal',
     component: About,
   },
   {

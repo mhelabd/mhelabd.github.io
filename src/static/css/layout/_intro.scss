@@ -26,10 +26,14 @@
 			h2 {
 				font-size: 1.5em;
 				font-weight: _font(weight-heading-extrabold);
+				margin: 0 0 (_size(element-margin) * 0) 0;
 			}
-
 			p {
 				font-size: 0.8em;
+				margin: 0;
+			}
+			ul {
+				margin-top: (_size(element-margin) * 1);
 			}
 		}
 

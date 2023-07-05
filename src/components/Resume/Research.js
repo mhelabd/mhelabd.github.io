@@ -5,13 +5,13 @@ import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 import Research from './Research/Research';
 
-const Experience = ({ data }) => {
+const ResearchExperience = ({ data }) => {
   const [isCollapsed, setCollapsedI] = useState(true);
   return (
     <div className="experience">
       <div className="link-to" id="experience" />
       <div className="title">
-        <h3>Experience</h3>
+        <h3>Research Experience</h3>
       </div>
       {data.filter((_, i) => (isCollapsed && i < 4) || !isCollapsed).map((research) => (
         <Research
@@ -34,7 +34,7 @@ const Experience = ({ data }) => {
   );
 };
 
-Experience.propTypes = {
+ResearchExperience.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
     company: PropTypes.string,
     position: PropTypes.string,
@@ -44,8 +44,8 @@ Experience.propTypes = {
   })),
 };
 
-Experience.defaultProps = {
+ResearchExperience.defaultProps = {
   data: [],
 };
 
-export default Experience;
+export default ResearchExperience;

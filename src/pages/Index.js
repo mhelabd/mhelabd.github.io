@@ -10,14 +10,16 @@ const Index = () => (
   >
     <article className="post" id="index">
       <Landing />
-      <p> You can read more <Link to="/about">about me</Link>,
-        or you can check out my {' '}
-        <Link to="/resume">resume</Link>, {' '}
-        <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
-      </p>
-      <p> Website inspiration can be found <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
+      <>
+        <p> You can read more in the <Link to="/personal">about</Link> section,
+          or you can check out my {' '}
+          <Link to="/resume">resume</Link>, {' '}
+          <Link to="/projects">projects</Link>, {' '}
+          view <Link to="/stats">site statistics</Link>, {' '}
+          or <Link to="/contact">contact</Link> me.
+        </p>
+        <p> Website inspiration can be found <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
+      </>
     </article>
   </Main>
 );

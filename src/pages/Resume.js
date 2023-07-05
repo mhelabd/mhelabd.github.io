@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 import Education from '../components/Resume/Education';
-import Research from '../components/Resume/Research';
 import Experience from '../components/Resume/Experience';
 import Skills from '../components/Resume/Skills';
 import Courses from '../components/Resume/Courses';
@@ -43,8 +42,8 @@ const Resume = () => (
         </div>
       </header>
       <Education data={degrees} />
-      <Experience data={positions} />
-      <Research data={research} />
+      <Experience jobs={positions} researches={research} />
+      {/* <Volunteer jobs={positions} researches={research} /> */}
       <Skills skills={skills} categories={categories} />
       <Courses data={courses} />
       <References />

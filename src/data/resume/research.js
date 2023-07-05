@@ -1,4 +1,5 @@
 const research = [
+  // TODO add all research experience
   {
     institution: 'Stanford Artificial Intelligence Lab',
     position: 'Undergraduate Researcher',
@@ -8,6 +9,9 @@ const research = [
     points: [
       'Researching few-shot semi-supervised sequential learning algorithms for sensor-based data.',
     ],
+    companyType: ['Academia'],
+    technologiesUsed: ['AI'],
+    timeFrame: ['Part-time'],
   },
 ];
 

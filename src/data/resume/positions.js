@@ -8,6 +8,9 @@ const positions = [
     points: [
       'Researching few-shot semi-supervised sequential learning algorithms for sensor-based data.',
     ],
+    companyType: ['Big Tech'],
+    technologiesUsed: ['AI', 'Foundation Models'],
+    timeFrame: ['Part-time'],
   },
   {
     company: 'Google',
@@ -20,6 +23,9 @@ const positions = [
       'Devising comprehensive testing mechanism to ensure real-world replicability including developing real-time WearOS / Android app, sequential error modeling, false positive testing on numerous datasets',
       'Working with key stakeholders to identify success metrics, leading data collection efforts, spearheading cross-team collaboration, managing tasks and expectations with senior engineers',
     ],
+    companyType: ['Big Tech'],
+    technologiesUsed: ['AI', 'Foundation Models', 'App Dev', 'SWE'],
+    timeFrame: ['Internship'],
   },
   {
     company: 'Google',
@@ -32,6 +38,9 @@ const positions = [
       'Developing a novel generative adversarial imputation network designed to detect and recommend corrections to erroneous data fields with much better results than current industry standard solutions',
       'Working with key stakeholders across multiple teams to understand their problems, collaborate to find a solution that addresses their key concerns, and learn key insights about development at needed scale',
     ],
+    companyType: ['Big Tech'],
+    technologiesUsed: ['AI', 'Generative Models', 'SWE'],
+    timeFrame: ['Internship'],
   },
   {
     company: 'Meta',
@@ -44,6 +53,9 @@ const positions = [
       'Working on the page transparency initiative where we build touchpoints for users to be informed about general page information such as state-controlled media, primary admin location, page management history and suspicious updates using PHP, ReactJS, React Native, GraphQL, Relay',
       'Transforming the page roles surface to help admins understand and take actions on behalf of their page',
     ],
+    companyType: ['Big Tech'],
+    technologiesUsed: ['AI', 'App Dev', 'Web Dev', 'SWE'],
+    timeFrame: ['Internship'],
   },
   {
     company: 'Samsung',
@@ -56,6 +68,9 @@ const positions = [
       'Developing a deep learning algorithm with sound processing technology (Python) to allow voice assistants and chatbots in customer service to be able to interpret human emotion',
       'Developing an API using frameworks such as TensorFlow and Keras and filing a patent application',
     ],
+    companyType: ['Big Tech'],
+    technologiesUsed: ['AI', 'SWE'],
+    timeFrame: ['Internship'],
   },
   {
     company: 'Ample',
@@ -67,6 +82,9 @@ const positions = [
       'Building the automotive cloud infrastructureto connect cars, charging stations, and autonomous robotic devicesand using the data for efficient resource allocation, problem detection and diagnosis',
       'Designing and implementing the cloud infrastructure using Lambda,S3,Cloudwatch, EC2, EMR,IoT Core,Kenesis,VPC,CloudFormation,EKS, ElasticSearch,Kibana,IAM',
     ],
+    companyType: ['Startup'],
+    technologiesUsed: ['AWS', 'SWE'],
+    timeFrame: ['Internship'],
   },
   {
     company: 'SWVL',
@@ -78,6 +96,9 @@ const positions = [
       'Combining open-source maps and company data to design and implement an efficient map architecture',
       'Developing a traffic overlay leveraging open-source and captain data; to estimate time of arrival using an optimized A* algorithm and to dynamically route the buses using Python, TensorFlow, OSM',
     ],
+    companyType: ['Startup'],
+    technologiesUsed: ['AI', 'SWE'],
+    timeFrame: ['Internship'],
   },
   {
     company: 'Prairie Health',
@@ -89,6 +110,9 @@ const positions = [
       'Developing algorithms to search for the relevant scholarly papers for a given patient (disease, comorbidities, phenotype... etc.) using NLP and machine learning, then downloading the full paper',
       'Developing NLPalgorithm to parse the research paper and output summaries for the Doctor (Python). This could be helpful for a patient with a rare disease or from an underrepresented group in research',
     ],
+    companyType: ['Startup'],
+    technologiesUsed: ['AI', 'SWE'],
+    timeFrame: ['Part-time'],
   },
 ];
 
