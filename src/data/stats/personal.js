@@ -1,38 +1,43 @@
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
 
-const Age = () => {
-  const [age, setAge] = useState();
+// const Age = () => {
+//   const [age, setAge] = useState();
 
-  const tick = () => {
-    const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
-    const birthTime = new Date('1990-02-05T09:24:00');
-    setAge(((Date.now() - birthTime) / divisor).toFixed(4));
-  };
+//   const tick = () => {
+//     const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
+//     const birthTime = new Date('1990-02-05T09:24:00');
+//     setAge(((Date.now() - birthTime) / divisor).toFixed(4));
+//   };
 
-  useEffect(() => {
-    const timer = setInterval(() => tick(), 25);
-    return () => {
-      clearInterval(timer);
-    };
-  }, []);
-  return <>{age}</>;
-};
+//   useEffect(() => {
+//     const timer = setInterval(() => tick(), 25);
+//     return () => {
+//       clearInterval(timer);
+//     };
+//   }, []);
+//   return <>{age}</>;
+// };
 
 const data = [
-  {
-    key: 'age',
-    label: 'Current age',
-    value: <Age />,
-  },
-  {
-    key: 'location',
-    label: 'Current city',
-    value: 'Stanford, CA',
-  },
+  // {
+  //   key: 'age',
+  //   label: 'Current age',
+  //   value: <Age />,
+  // },
   {
     key: 'location',
     label: 'Home town',
     value: 'Fayoum, Egypt',
+  },
+  {
+    key: 'location',
+    label: 'Current city',
+    value: 'Bay Area, CA',
+  },
+  {
+    key: 'number',
+    label: '# of Visited Countries',
+    value: ['Egypt', 'USA', 'Canada', 'Mexico', 'Germany', 'Italy', 'Austria', 'UK', 'China', 'India'].length,
   },
 ];
 

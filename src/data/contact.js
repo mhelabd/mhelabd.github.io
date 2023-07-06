@@ -1,7 +1,7 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
+// import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 import { faGoodreads } from '@fortawesome/free-brands-svg-icons/faGoodreads';
 // See https://fontawesome.com/icons?d=gallery&s=brands,regular&m=free
 // to add other icons.
@@ -27,11 +27,11 @@ const data = [
     label: 'Goodreads',
     icon: faGoodreads,
   },
-  {
-    link: 'mailto:michaelhanyy@gmail.com',
-    label: 'Email',
-    icon: faEnvelope,
-  },
+  // {
+  //   link: 'mailto:michaelhanyy@gmail.com',
+  //   label: 'Email',
+  //   icon: faEnvelope,
+  // },
 ];
 
 export default data;
