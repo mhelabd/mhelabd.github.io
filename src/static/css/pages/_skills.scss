@@ -3,6 +3,21 @@
 .skills .title {
 	text-align: center;
 }
+.skill-row-container {
+	display: block;
+	text-align: center;
+	a {
+		margin: 1.5em;
+	}
+	button {
+		border-radius: 0.5em;
+		padding: 0em;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		font-weight: normal;
+	}
+}
 
 .skill-button-container {
 	margin: 1.5em 0;
@@ -10,6 +25,9 @@
 }
 
 .skillbutton {
+	border-radius: 0.5em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
 	box-shadow: none;
 	outline: none
 }

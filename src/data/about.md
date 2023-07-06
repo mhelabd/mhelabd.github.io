@@ -3,7 +3,7 @@
 I am currently a Machine Learning Research Engineer at Google working on building the first foundational model for sensor data. This is incredibly useful to a multitude of downstream tasks such as wearable health and fitness applications. Before that, I was a student at Stanford University where I studied Computer Science and Mathematics. I finished my undergraduate and master's degree at Stanford both with a focus in Artificial Intelligence.
 
 
-# Passionate about
+# Passions
 - poverty allevation.
 - harnessing technology to uplift and enrich lives.
 - building aligned/ethical/moral Artificial Intelligence.

@@ -11,6 +11,7 @@ const getRows = (courses) => courses.sort((a, b) => {
   else if (a.number < b.number) ret = -1;
   return ret;
 }).map((course, idx) => (
+  // TODO: Add papers
   <Course
     data={course}
     key={course.title}

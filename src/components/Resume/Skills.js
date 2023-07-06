@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import CategoryButton from './Skills/CategoryButton';
-import SkillBar from './Skills/SkillBar';
 
 const handleProps = ({ categories, skills }) => ({
   buttons: categories.map((cat) => cat.name).reduce((obj, key) => ({
@@ -35,11 +34,13 @@ class Skills extends Component {
       return ret;
     }).filter((skill) => (actCat === 'All' || skill.category.includes(actCat)))
       .map((skill) => (
-        <SkillBar
-          categories={this.props.categories}
-          data={skill}
-          key={skill.title}
-        />
+        <button
+          type="button"
+        >
+          <a href={skill.url}>
+            {skill.title}
+          </a>
+        </button>
       ));
   }
 
@@ -73,8 +74,7 @@ class Skills extends Component {
         <div className="link-to" id="skills" />
         <div className="title">
           <h2>Skills</h2>
-          <p>Note: I think these sections are silly, but everyone seems to have one.
-            Here is a *mostly* honest overview of my skills.
+          <p>You can filter the skills to show only the most relevant ones to a particular topic.
           </p>
         </div>
         <div className="skill-button-container">
