@@ -36,6 +36,7 @@ class Skills extends Component {
       .map((skill) => (
         <button
           type="button"
+          key={skill.title}
         >
           <a href={skill.url}>
             {skill.title}

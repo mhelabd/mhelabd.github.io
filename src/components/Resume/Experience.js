@@ -123,14 +123,14 @@ const JobExperience = ({ jobs, researches }) => {
       {/* <div className="skill-button-container">
         {getButtons('technologiesUsed')}
       </div> */}
-      <div className="skill-button-container">
+      <div className="company-button-container">
         {getButtons('companyTypes')}
       </div>
       {/* <div className="skill-button-container">
         {getButtons('timeFrames')}
       </div> */}
       {
-      ['All', 'Big Tech', 'Startup'].includes(companyTypecategory)
+        ['All', 'Big Tech', 'Startup'].includes(companyTypecategory)
         && <>
           <div className="title">
             <h3>Job Experience</h3>
