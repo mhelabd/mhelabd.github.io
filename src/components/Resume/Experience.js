@@ -110,7 +110,6 @@ const JobExperience = ({ jobs, researches }) => {
     }
     return filteredResearch;
   };
-
   return (
     <div className="experience">
       <div className="link-to" id="experience" />
@@ -129,24 +128,22 @@ const JobExperience = ({ jobs, researches }) => {
       {/* <div className="skill-button-container">
         {getButtons('timeFrames')}
       </div> */}
-      {
-        ['All', 'Big Tech', 'Startup'].includes(companyTypecategory)
-        && <>
+      {['All', 'Big Tech', 'Startup'].includes(companyTypecategory) && (
+        <>
           <div className="title">
             <h3>Job Experience</h3>
           </div>
           {getWorkExperience()}
         </>
-      }
-      {
-        ['Academia', 'All'].includes(companyTypecategory)
-        && <>
+      )}
+      {['Academia', 'All'].includes(companyTypecategory) && (
+        <>
           <div className="title">
             <h3>Research Experience</h3>
           </div>
           {getResearchExperience()}
         </>
-      }
+      )}
     </div>
   );
 };
