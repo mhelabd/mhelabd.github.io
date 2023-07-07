@@ -17,7 +17,12 @@ const Contact = () => (
       </header>
       <div className="email-at">
         <p>Feel free to get in touch. You can email me at: </p>
-        <span>mhelabd [at] alumni [dot] stanford [dot] edu</span>
+        <div style={{ marginLeft: '0.5em' }}>
+          <span>mhelabd at alumni dot stanford dot edu</span>
+        </div>
+        <div style={{ marginLeft: '0.5em' }}>
+          <span>you at michaelelabd dot com</span>
+        </div>
       </div>
       <ContactIcons />
     </article>
