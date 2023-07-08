@@ -21,7 +21,7 @@ const research = [
     link: 'https://ai.stanford.edu/',
     daterange: 'September 2022 - June 2023',
     points: [
-      '',
+      'Working on multiple new initiatives to improve current NeRF technology',
       'Working under the guidance and supervision of Professor Jeannette Bohg',
     ],
     companyType: ['Academia'],

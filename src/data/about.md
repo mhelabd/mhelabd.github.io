@@ -1,7 +1,6 @@
 
 # Intro
-I am currently a Machine Learning Research Engineer at Google working on building the first foundational model for sensor data. This is incredibly useful to a multitude of downstream tasks such as wearable health and fitness applications. Before that, I was a student at Stanford University where I studied Computer Science and Mathematics. I finished my undergraduate and master's degree at Stanford both with a focus in Artificial Intelligence.
-
+I am currently a Machine Learning Research Engineer at Google, where my work centers around the development of a foundational model for sensor data. This model holds significant promise, particularly in its application to wearable health and fitness technologies, among other impactful use cases. Before joining Google, I had the privilege of pursuing my Bachelor's and Master's degrees at Stanford University, where I focused on Computer Science and Mathematics, with a particular emphasis on Artificial Intelligence. 
 
 # Passions
 - poverty allevation.
@@ -20,3 +19,7 @@ I am currently a Machine Learning Research Engineer at Google working on buildin
 - As a child, I was fascinated by sustainable cars. At 13, I showcased a "wind-powered" electric car prototype to Egyptian Government Officals and the Pope.
 - I enjoyed tinkering with technology and building gadgets to help people in their daily lives.
 - At 16, I immigrated alone to the United States in pursuit of a better education.
+
+# Qoutes!
+- "If it is in our power to prevent something bad from happening, without thereby sacrificing anything of comparable moral importance, we ought, morally, to do it." - Peter Singer
+- "Your brain is for having ideas, not storing them" - David Allen (maybe an excuse for my bad memory)
