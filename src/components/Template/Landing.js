@@ -9,7 +9,7 @@ const Landing = () => (
   <section id="landing">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="Profile" width={288} height={288} />
+        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="Profile" width="100%" height="auto" />
       </Link>
       <header>
         <h2>Michael Elabd</h2>
