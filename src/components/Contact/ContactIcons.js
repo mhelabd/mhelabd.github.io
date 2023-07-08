@@ -8,8 +8,8 @@ const ContactIcons = () => (
   <ul className="icons">
     {data.map((s) => (
       <li key={s.label}>
-        <a href={s.link}>
-          <FontAwesomeIcon icon={s.icon} />
+        <a href={s.link} alt>
+          <FontAwesomeIcon icon={s.icon} title={s.label} />
         </a>
       </li>
     ))}

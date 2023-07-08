@@ -18,7 +18,7 @@ const Index = () => (
           view <Link to="/stats">site statistics</Link>, {' '}
           or <Link to="/contact">contact</Link> me.
         </p>
-        <p> Website inspiration can be found <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
+        <p><a href="https://github.com/mldangelo/personal-site">Website inspiration</a>.</p>
       </>
     </article>
   </Main>
