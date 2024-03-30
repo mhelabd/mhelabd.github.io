@@ -1,12 +1,31 @@
 const positions = [
   {
     company: 'Google',
+    position: 'Research Engineer',
+    icon: '/images/work/google.png',
+    link: 'https://google.com',
+    daterange: 'September 2023 - Present',
+    points: [
+      'Designed, researched, and implemented an end-to-end training pipeline for motion algorithms, characterized by its modular architecture and optimized performance on TPU, achieving a runtime 70-100x faster than competitive solutions. The pipeline\'s design facilitated the execution of over 1000 hyperparameter search experiments within days, making it the most widely adopted pipeline for motion algorithms at Google.',
+      // 'Led the machine learning effort in the development of the running dynamics features
+      //  for the Pixel Watch. Implemented cutting-edge algorithms and techniques resulting
+      // in out-performing all our competition.',
+      // 'Researched and implemented the first motion foundation model that
+      // is currently in use on the Pixel Watch.',
+    ],
+    companyType: ['Big Tech'],
+    technologiesUsed: ['AI', 'Foundation Models'],
+    timeFrame: ['Part-time'],
+  },
+  {
+    company: 'Google',
     position: 'Student Researcher',
     icon: '/images/work/google.png',
     link: 'https://google.com',
-    daterange: 'January 2023 - Present',
+    daterange: 'January 2023 - June 2023',
     points: [
-      'Researching few-shot semi-supervised sequential learning algorithms for sensor-based data.',
+      'Conducting cutting-edge research on foundational models tailored for motion-based algorithms, with a focus on optimizing on-device performance to achieve state-of-the-art results for downstream tasks.',
+      'Investigating innovative few-shot semi-supervised sequential learning algorithms designed specifically for sensor-based data, aiming to minimize data collection requirements while attaining production-level performance benchmarks.',
     ],
     companyType: ['Big Tech'],
     technologiesUsed: ['AI', 'Foundation Models'],
