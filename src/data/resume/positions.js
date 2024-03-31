@@ -7,11 +7,6 @@ const positions = [
     daterange: 'September 2023 - Present',
     points: [
       'Designed, researched, and implemented an end-to-end training pipeline for motion algorithms, characterized by its modular architecture and optimized performance on TPU, achieving a runtime 70-100x faster than competitive solutions. The pipeline\'s design facilitated the execution of over 1000 hyperparameter search experiments within days, making it the most widely adopted pipeline for motion algorithms at Google.',
-      // 'Led the machine learning effort in the development of the running dynamics features
-      //  for the Pixel Watch. Implemented cutting-edge algorithms and techniques resulting
-      // in out-performing all our competition.',
-      // 'Researched and implemented the first motion foundation model that
-      // is currently in use on the Pixel Watch.',
     ],
     companyType: ['Big Tech'],
     technologiesUsed: ['AI', 'Foundation Models'],
