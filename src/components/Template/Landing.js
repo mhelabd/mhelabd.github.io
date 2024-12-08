@@ -14,7 +14,7 @@ const Landing = () => (
       <header>
         <h2>Michael Elabd</h2>
         <p>
-          AI Research @ Google
+          Research @ Google DeepMind
         </p>
         <p>
           Computer Science MS+BS @ Stanford
@@ -28,26 +28,24 @@ const Landing = () => (
       {/* TODO: ADD LINKS */}
       <ul>
         <li>
-          Hello, I am a <b>Machine Learning Research Engineer at Google</b>,
-          focusing on building foundational models for sensor data.
+          Hello, I work on the <b>Foundational Research Team at Google DeepMind</b>,
+          specializing in developing new capabilities for large language models (LLMs).
         </li>
         <li>
-          I studied <b>Computer Science (AI Track) and Mathematics at Stanford University</b>.
+          My professional interests include <b>deep learning</b>,
+          <b>generative models</b>, <b>natural language</b>, and <b>computer vision</b>.
         </li>
         <li>
-          My professional interests include deep learning,
-          generative models, natural language, and computer vision.
+          Academically, I am deeply passionate about the <b>ethics of technology</b>,
+          <b>poverty alleviation</b>, and <b>international development</b>.
         </li>
         <li>
-          My academic passions include ethics of technology,
-          poverty alleviation and international development.
+          My intellectual pursuits include <b>philosophy</b>, <b>economics</b>,
+          and <b>political science</b>.
         </li>
         <li>
-          My intellectual pursuits include philosophy, economics, and political science.
-        </li>
-        <li>
-          I am passionate about helping those in need because
-          I believe that we all have a moral imperative towards one another.
+          I am <b>deeply committed</b> to helping those in need and finding ways to use
+          technology to make a <b>positive</b> and <b>meaningful</b> difference.
         </li>
       </ul>
     </section>

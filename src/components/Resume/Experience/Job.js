@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Markdown from 'react-markdown';
 
 const Job = ({ data }) => (
   <article className="jobs-container">
@@ -19,7 +20,7 @@ const Job = ({ data }) => (
     </header>
     <ul className="points">
       {data.points.map((point) => (
-        <li key={point}>{point}</li>
+        <Markdown className="point" key={point}>{point}</Markdown>
       ))}
     </ul>
   </article>
