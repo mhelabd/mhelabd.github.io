@@ -11,3 +11,9 @@ nvm install
 npm install
 npm run start
 ```
+
+# Deploying to GitHub Pages
+
+```bash
+npm run deploy
+```
